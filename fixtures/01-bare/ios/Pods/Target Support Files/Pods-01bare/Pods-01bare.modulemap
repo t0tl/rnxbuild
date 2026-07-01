@@ -1,0 +1,6 @@
+module Pods_01bare {
+  umbrella header "Pods-01bare-umbrella.h"
+
+  export *
+  module * { export * }
+}

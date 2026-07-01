@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.turbo/
+.rnxbuild/
+.DS_Store
+# SwiftPM build outputs (produced by `swift build` in fixtures during tests)
+.build/
+.swiftpm/
+# tsc -b emits .js/.d.ts/.map alongside .ts even with --noEmit when composite
+# is set (which our base tsconfig requires). Keep test/ source-only.
+packages/*/test/**/*.js
+packages/*/test/**/*.d.ts
+packages/*/test/**/*.js.map
+packages/*/test/**/*.d.ts.map
+fixtures/*/ios/build/
+fixtures/*/node_modules/

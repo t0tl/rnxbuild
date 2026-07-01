@@ -1,0 +1,28 @@
+{
+  "name": "@rnxbuild/integration",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "lint": "eslint 'test/**/*.ts'",
+    "typecheck": "tsc -p tsconfig.test.json --noEmit"
+  },
+  "dependencies": {
+    "@rnxbuild/workspace-parser": "workspace:*",
+    "@rnxbuild/build-settings": "workspace:*",
+    "@rnxbuild/pod-resolver": "workspace:*",
+    "@rnxbuild/swift-compiler": "workspace:*",
+    "@rnxbuild/build-planner": "workspace:*",
+    "@rnxbuild/clang-compiler": "workspace:*",
+    "@rnxbuild/orchestrator": "workspace:*",
+    "execa": "^9.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.0.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.1.0"
+  }
+}

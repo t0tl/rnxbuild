@@ -1,0 +1,39 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+.xcode.env.local
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods — binary artifact directories are too large to commit (>1 GB of
+# prebuilt XCFrameworks and tarballs in RN 0.85+). Commit Pods.xcodeproj,
+# Manifest.lock, Target Support Files, and Local Podspecs (all text, <5 MB)
+# but skip the binary-heavy subdirectories.
+/Pods/React-Core-prebuilt/
+/Pods/ReactNativeCore-artifacts/
+/Pods/ReactNativeDependencies/
+/Pods/ReactNativeDependencies-artifacts/
+/Pods/hermes-engine/
+/Pods/hermes-engine-artifacts/
+/Pods/Headers/

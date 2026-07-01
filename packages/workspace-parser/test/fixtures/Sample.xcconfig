@@ -1,0 +1,15 @@
+// Sample xcconfig with various features
+#include "Base.xcconfig"
+
+PRODUCT_NAME = HelloApp
+SWIFT_VERSION = 5.0
+
+// A conditional setting
+OTHER_LDFLAGS[sdk=iphoneos*] = -framework UIKit
+OTHER_LDFLAGS[sdk=iphonesimulator*] = -framework UIKit -framework XCTest
+
+// Inherited / cascading
+HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/include
+
+// Comment with // mid-line
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 // trailing comment

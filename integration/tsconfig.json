@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "outDir": "./dist", "rootDir": "./test" },
+  "include": ["test/**/*"],
+  "references": [
+    { "path": "../packages/workspace-parser" },
+    { "path": "../packages/build-settings" },
+    { "path": "../packages/pod-resolver" },
+    { "path": "../packages/swift-compiler" },
+    { "path": "../packages/build-planner" },
+    { "path": "../packages/clang-compiler" },
+    { "path": "../packages/orchestrator" }
+  ]
+}

@@ -1,0 +1,2 @@
+#include "ChainedMid.xcconfig"
+TOP_KEY = top_value

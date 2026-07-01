@@ -1,0 +1,1 @@
+@rpath/01bare.debug.dylib

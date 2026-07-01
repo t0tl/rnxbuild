@@ -1,0 +1,24 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		13B07F861A680F5B00A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B07FBF1A68108700A75B9A /* HelloApp */ = {isa = PBXGroup; children = (13B07FB01A68108700A75B9A /* AppDelegate.m */, 13B07FB51A68108700A75B9A /* main.m */, ); name = HelloApp; sourceTree = "<group>"; };
+		13B07F861A680F5B00A75B9A_root /* HelloApp */ = {isa = PBXNativeTarget; buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloApp" */; buildPhases = (13B07F8C1A680F5B00A75B9A /* Sources */, ); buildRules = (); dependencies = (); name = HelloApp; productName = HelloApp; productReference = 13B07F961A680F5B00A75B9A /* HelloApp.app */; productType = "com.apple.product-type.application"; };
+		13B07F8C1A680F5B00A75B9A /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (13B07F861A680F5B00A75B9A /* AppDelegate.m in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloApp" */ = {isa = XCConfigurationList; buildConfigurations = (13B07F941A680F5B00A75B9A /* Debug */, 13B07F951A680F5B00A75B9A /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		13B07F941A680F5B00A75B9A /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = HelloApp; PRODUCT_BUNDLE_IDENTIFIER = "com.example.helloapp"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Debug; };
+		13B07F951A680F5B00A75B9A /* Release */ = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = HelloApp; PRODUCT_BUNDLE_IDENTIFIER = "com.example.helloapp"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Release; };
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {isa = PBXProject; buildConfigurationList = 83CBBA061A601CBA00E9B192 /* Build configuration list for PBXProject "HelloApp" */; mainGroup = 83CBB9F61A601CBA00E9B192; targets = (13B07F861A680F5B00A75B9A_root /* HelloApp */, ); };
+		83CBB9F61A601CBA00E9B192 /* Main */ = {isa = PBXGroup; children = (13B07FBF1A68108700A75B9A /* HelloApp */); sourceTree = "<group>"; };
+		83CBBA061A601CBA00E9B192 /* Build configuration list for PBXProject "HelloApp" */ = {isa = XCConfigurationList; buildConfigurations = (83CBBA071A601CBA00E9B192 /* Debug */, 83CBBA081A601CBA00E9B192 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		83CBBA071A601CBA00E9B192 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; ENABLE_STRICT_OBJC_MSGSEND = YES; }; name = Debug; };
+		83CBBA081A601CBA00E9B192 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; ENABLE_STRICT_OBJC_MSGSEND = YES; }; name = Release; };
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

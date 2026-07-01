@@ -1,0 +1,4 @@
+module ExpoModulesJSI {
+header "ExpoModulesJSI-Swift.h"
+export *
+}

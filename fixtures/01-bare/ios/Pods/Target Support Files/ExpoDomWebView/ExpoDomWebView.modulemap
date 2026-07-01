@@ -1,0 +1,6 @@
+module ExpoDomWebView {
+  umbrella header "ExpoDomWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

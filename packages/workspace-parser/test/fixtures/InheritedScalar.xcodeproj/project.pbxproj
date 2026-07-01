@@ -1,0 +1,28 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		AAA0001 /* App */ = {isa = PBXNativeTarget; buildConfigurationList = AAA0010 /* Build configuration list for PBXNativeTarget "App" */; buildPhases = (); buildRules = (); dependencies = (); name = App; productName = App; productReference = AAA0099 /* App.app */; productType = "com.apple.product-type.application"; };
+		AAA0010 /* Build configuration list for PBXNativeTarget "App" */ = {isa = XCConfigurationList; buildConfigurations = (AAA0020 /* Debug */, AAA0021 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AAA0020 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			PRODUCT_NAME = HelloApp;
+			INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2024 Acme Inc";
+			OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+			OTHER_LDFLAGS = "$(inherited) -ObjC -framework UIKit";
+			HEADER_SEARCH_PATHS = "$(inherited) /some/path";
+			LIBRARY_SEARCH_PATHS = "/lib/one /lib/two";
+			GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+		}; name = Debug; };
+		AAA0021 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			PRODUCT_NAME = HelloApp;
+		}; name = Release; };
+		BBB0001 /* Project object */ = {isa = PBXProject; buildConfigurationList = BBB0010 /* Build configuration list for PBXProject "App" */; mainGroup = BBB0099; targets = (AAA0001 /* App */); };
+		BBB0010 /* Build configuration list for PBXProject "App" */ = {isa = XCConfigurationList; buildConfigurations = (BBB0020 /* Debug */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		BBB0020 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {}; name = Debug; };
+		BBB0099 /* Main */ = {isa = PBXGroup; children = (); sourceTree = "<group>"; };
+	};
+	rootObject = BBB0001 /* Project object */;
+}

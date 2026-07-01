@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": { "outDir": "./dist", "rootDir": "./src" },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../app-bundler" },
+    { "path": "../build-planner" },
+    { "path": "../build-settings" },
+    { "path": "../clang-compiler" },
+    { "path": "../linker" },
+    { "path": "../swift-compiler" },
+    { "path": "../target-graph" }
+  ]
+}

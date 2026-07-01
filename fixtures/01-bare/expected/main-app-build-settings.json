@@ -1,0 +1,3 @@
+{
+  "_GOLDEN_SNAPSHOT_NEEDED": "Run scripts/capture-golden-snapshots.sh 01-bare on a Mac with Xcode + CocoaPods to populate this file. The integration test will fail until then; that is expected and documented in this fixture's KNOWN-BROKEN.md."
+}
